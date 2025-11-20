@@ -7,7 +7,20 @@ void main() {
         String sub = basicText.substring(10, 17);
         System.out.println(sub);
 
+        //names to Upper
+        String randomNames = "Pedro Pascal, Carlos Sainz, Charles Leclerc";
+        String makeUpperCaseNames = randomNames.toUpperCase();
+        System.out.println(makeUpperCaseNames);
 
+        // check names
+        String carlos = "Carlos";
+        String sainz = "Carlos";
+
+        if (carlos.equals(sainz)) {
+            System.out.println("Carlos and Sainz are the same CARLOS.");
+        } else {
+            System.out.println("Carlos and Sainz are not the same.");
+    }
 
 
         // validate user commands
