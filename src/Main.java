@@ -1,4 +1,4 @@
 
 void main() {
-  IO.println(String.format("Test!"));
+  IO.println(String.format("Hello!"));
 }
