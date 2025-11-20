@@ -1,11 +1,16 @@
 import java.util.Scanner;
 
 void main() {
-        String originalText = "This is a string I will extract a substring from!";
-        String sub = originalText.substring(10, 17);
+
+        // extract substring
+        String basicText = "This is a string I will extract a substring from!";
+        String sub = basicText.substring(10, 17);
         System.out.println(sub);
 
-        // check email
+
+
+
+        // validate user commands
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Please enter your email address: ");
@@ -30,5 +35,10 @@ void main() {
         String reEmail =
                 "^(?i)[a-z0-9.!#$%&'*+/=?^_`{|}~-]+" + "@[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?" + "(?:\\.[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?)*$";
         return email.matches(reEmail);
+
+
+
     }
+
+
 
